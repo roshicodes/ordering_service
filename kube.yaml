@@ -28,7 +28,7 @@ spec:
       subdomain: orderservice
       containers:
         - name: orderservice
-          image: docker.raqeebwedsrabeeta.live:5000/rabeeta/order_service:build_number
+          image: docker.raqeebwedsrabeeta.live:5000/rabeeta/order_service:build-number
           imagePullPolicy: "Always"
           ports:
             - containerPort: 8080
